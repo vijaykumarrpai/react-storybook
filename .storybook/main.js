@@ -10,6 +10,7 @@ module.exports = {
     "@storybook/addon-actions",
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
-    "@storybook/addon-viewport"
+    "@storybook/addon-viewport",
+    "@storybook/addon-a11y"
   ]
 }
