@@ -28,7 +28,7 @@ Success.args = {
 }
 
 export const Log = () => (
-    <Button variantColor='blue' onClick={() => console.log('Button clicked')}>
+    <Button variantColor='blue' onClick={() => console.log('Button clicked', process.env.STORYBOOK_THEME)}>
         Log
     </Button>
 )
